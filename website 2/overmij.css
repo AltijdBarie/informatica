@@ -1,0 +1,11 @@
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {
+    background-color: lightgrey;
+  }
+
+table {
+    border-collapse: collapse;
+  }
