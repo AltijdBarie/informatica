@@ -1,0 +1,80 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+div#container {
+    width: auto;  
+    margin: auto;
+}
+
+article{
+    padding-left: 10px;
+}
+
+
+section{
+    margin-left: 360px;
+
+}
+
+header {
+    width: 360px;
+    height: 720px;
+    margin: auto;
+    margin-top: 0px;
+    background-image: url('images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+div#logo {
+    padding: 10px;
+    display: table;
+}
+
+ul#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li#nav {
+    float: left;
+  }
+  
+  li#nav a#nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li#nav a#nav:hover {
+    background-color: #111;
+  }
+
+div#inhoud {
+    width: 600px;
+    float: right;
+}
+
+div#footer-links {
+    float: left;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+div#footer-rechts {
+    float: right;
+    padding: 10px;
+}
