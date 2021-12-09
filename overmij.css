@@ -1,0 +1,31 @@
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {
+    background-color: lightgrey;
+  }
+
+table {
+    border-collapse: collapse;
+  }
+
+/* unvisited link */
+a:link {
+  color: rgb(15, 15, 78);
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
