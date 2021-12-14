@@ -78,6 +78,14 @@
                                     readfile("overmij.inc");
                                     break;
 
+                                case 3:
+                                    readfile("opdrachten.inc");
+                                    break;
+
+                                case 4:
+                                    readfile("dagboek.inc");
+                                    break;
+
                                 default:
                                     readfile("home.inc");
                             }
