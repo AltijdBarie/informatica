@@ -16,6 +16,19 @@
             echo "<link rel='stylesheet' href='overmij.css' type='text/css'/>";
             echo "<title>Overmij</title>";
         }
+        if ($nummer==3) {
+            echo "<title>Opdrachten</title>";
+        }
+        if ($nummer==4) {
+            echo "<title>Dagboek</title>";
+        }
+        if ($nummer==5) {
+            echo "<title>Rekenmachine</title>";
+            echo "link rel ='stylesheet' href='rekenmachine.css' type=text/css'/>";
+        }
+        if ($nummer==6) {
+            echo "<title>Ontwerp</title>";
+        }
     ?>
     <link rel="icon" type="image/jpg" href="./images/favicon.jpg">
 </head>
@@ -57,6 +70,18 @@
                             } else {
                                 echo "<li id='nav'><a id='nav' href='index.php?page=4'>Dagboek</a></li>";    
                             }
+                            if ($nummer==5) {
+                                echo "<li id='nav'><a id='nav' href='.phindexp?page=5' class='active'>Rekenmachine</a></li>";     
+                            } else {
+                                echo "<li id='nav'><a id='nav' href='index.php?page=5'>Rekenmachine</a></li>";    
+                            }
+                            if ($nummer==6) {
+                                echo "<li id='nav'><a id='nav' href='index.php?page=6' class='active'>Ontwerp</a></li>";     
+                            } else {
+                                echo "<li id='nav'><a id='nav' href='index.php?page=6'>Ontwerp</a></li>";    
+                            }
+
+
 
                             echo "</ul>"
                         ?>
@@ -85,7 +110,10 @@
                                 case 4:
                                     readfile("dagboek.inc");
                                     break;
-
+                                    
+                                case 5:
+                                    readfile("rekenmachine.inc");
+                                    break;
                                 default:
                                     readfile("home.inc");
                             }
