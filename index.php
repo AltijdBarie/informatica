@@ -24,7 +24,8 @@
         }
         if ($nummer==5) {
             echo "<title>Rekenmachine</title>";
-            echo "link rel ='stylesheet' href='rekenmachine.css' type=text/css'/>";
+            echo "<link rel='stylesheet' href='rekenmachine.css' type='text/css'/>";
+            echo "<script src='rekenmachine.js'></script>"; 
         }
         if ($nummer==6) {
             echo "<title>Ontwerp</title>";
